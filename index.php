@@ -18,9 +18,12 @@ echo "CAT".$programMarks["CAT"];
 $WebTechnologies = array(
     'frontend'=>array('HTML','CSS','JS','Bootstap'),
     'backend' =>array("PHP","JS","Python","Java"),
-    'databases' =>array("MySQL","postgresSQL","Mongo DB","firebase")
+    'databases' =>array("MySQL","postgresSQL","Mongo DB","firebase"),
+    'frameworks' =>array("Jungo","Laravel","Screenboot","flutter")
+    
 );
 echo $WebTechnologies['frontend'][2]; //will be our output
 echo $WebTechnologies['backend'][0];
+echo $WebTechnologies['frameworks'][2];
 echo $WebTechnologies['databases'][2];
 ?>
